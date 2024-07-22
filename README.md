@@ -11,10 +11,10 @@ geckodriver
 chromedriver --port=4444
 ```
 
-## How it paralelize webdriver:
+## How it parallelize webdriver:
 - Open new tab for each page to convert to pdf
 - Switch to tab, convert current tab to pdf (there is no other way to print another tab then the one you are on), close tab and switch to blank tab
-
 Using mutex/rwlock in both contexts
+
 NEEDS a blank tab, as closing all tabs, closes the windows which closes the connection with webdriver.
 
