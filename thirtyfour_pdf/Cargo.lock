@@ -1389,8 +1389,6 @@ dependencies = [
 [[package]]
 name = "thirtyfour"
 version = "0.33.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "df0b0190491eaeaef4bf7f1479f4eaf330adc14889d2b4b479ddafbe87ce6f39"
 dependencies = [
  "arc-swap",
  "async-trait",
@@ -1412,13 +1410,12 @@ dependencies = [
  "tokio",
  "tracing",
  "url",
+ "webdriver",
 ]
 
 [[package]]
 name = "thirtyfour-macros"
 version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "67c98f6ff7045a00ce7ef2fb2f5ebd5c3c6dfe8fc0c1858249e32555fa8059df"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",

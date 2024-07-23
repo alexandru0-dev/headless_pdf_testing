@@ -13,3 +13,7 @@ tokio = { version = "1", features = ["full"] }
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 webdriver = "0.50.0"
+
+
+[patch.crates-io]
+thrityfour = { path = "https://github.com/alexandru0-dev/thirtyfour", branch = "dev", package = "thirtyfour"}
